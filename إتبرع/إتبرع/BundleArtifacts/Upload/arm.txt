@@ -1,0 +1,4 @@
+MainPackage=E:\logan\إتبرع\إتبرع\bin\ARM\Release\Upload\إتبرع_1.0.5.0_ARM.appx
+SymbolPackage=E:\logan\إتبرع\إتبرع\AppPackages\إتبرع_1.0.5.0\إتبرع_1.0.5.0_ARM.appxsym
+ResourcePack=E:\logan\إتبرع\إتبرع\_scale-100.appx
+ResourcePack=E:\logan\إتبرع\إتبرع\_scale-400.appx

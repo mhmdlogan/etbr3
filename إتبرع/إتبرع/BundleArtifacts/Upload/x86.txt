@@ -1,0 +1,2 @@
+MainPackage=E:\logan\إتبرع\إتبرع\bin\x86\Release\Upload\إتبرع_1.0.5.0_x86.appx
+SymbolPackage=E:\logan\إتبرع\إتبرع\AppPackages\إتبرع_1.0.5.0\إتبرع_1.0.5.0_x86.appxsym

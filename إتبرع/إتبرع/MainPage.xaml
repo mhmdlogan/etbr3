@@ -1,0 +1,321 @@
+﻿<Page
+    x:Class="إتبرع.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:إتبرع"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Color x:Key="Color1">#FFD11C24</Color>
+        <Color x:Key="Color2">#FFD11C24</Color>
+        <Color x:Key="Color3">#FFD11C24</Color>
+        <Color x:Key="Color4">#FFD11C24</Color>
+    </Page.Resources>
+
+    <Grid Background="White">
+
+        <Grid Height="100" VerticalAlignment="Top" Margin="0,5,0,0">
+
+            <Image HorizontalAlignment="Center" Width="100" Source="Assets/logo1.png"/>
+        </Grid>
+
+        <ScrollViewer Margin="0,119,0,48">
+
+
+            <StackPanel Background="White">
+
+                <Grid Height="70">
+                    <Image x:Name="image" HorizontalAlignment="Right" Height="70" VerticalAlignment="Top" Width="70" Source="Assets/مستشفى 75375.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مستشفى سرطان الاطفال" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضية لـ 57357" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send1" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send1_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image1" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/مصر الخير.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مؤسسة مصر الخير" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضية لـ 9597" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send2" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send2_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image2" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/مؤسسة مجدى يعقوب.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مؤسسة مجدى يعقوب" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فيها كلمة قلب لـ 9698" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send3" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send3_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image3" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/بنك الطعام.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="بنك الطعام المصرى" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 9595" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send4" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send4_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image5" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/رساله.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="جمعية رسالة" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock5" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 9598" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send5" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send5_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image6" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/نهر الخير.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms6" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مشروع نهر الخير" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock6" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فيها حرف n لـ 95535" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send6" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send6_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image7" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/ستر وغطا.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms7" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مشروع ستر وغطا" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock7" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فيها كلمة ستر لـ 95530" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send7" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send7_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image8" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/صناع الحياه.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms8" HorizontalAlignment="Center" TextWrapping="Wrap" Text="مؤسسة صناع الحياة" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock8" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 9695" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send8" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send8_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image9" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/اغاثه.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms9" HorizontalAlignment="Center" TextWrapping="Wrap" Text="لجنة الاعاثه والطوارئ(فلسطين-سوريا-الصومال)" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="11"/>
+                    <TextBlock x:Name="textBlock9" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 9596" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send9" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send9_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image10" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/بنك الطعام.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms10" HorizontalAlignment="Center" TextWrapping="Wrap" Text="التبرع لبناء وتعمير المساجد" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock10" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 95230" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send10" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send10_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image11" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/بنك الشفاء.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms11" HorizontalAlignment="Center" TextWrapping="Wrap" Text="بنك الشفاء المصرى" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock11" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فاضيه لـ 9699" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send11" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send11_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+                <Grid Height="70">
+                    <Image x:Name="image12" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/عشوائيات.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms12" HorizontalAlignment="Center" TextWrapping="Wrap" Text="معا تطوير العشوائيات" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="18"/>
+                    <TextBlock x:Name="textBlock12" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فيها كلمة معا لـ 95165" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send12" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send12_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+                <Grid Height="70">
+                    <Image x:Name="image13" HorizontalAlignment="Right" Height="65" VerticalAlignment="Top" Width="65" Source="Assets/سرطان الثدى.png" Margin="0,0,10,0" />
+                    <TextBlock x:Name="ms13" HorizontalAlignment="Center" TextWrapping="Wrap" Text="المركز الطبى لعلاج سرطان الثدى" VerticalAlignment="Top" Margin="0,13,0,0" FontSize="15"/>
+                    <TextBlock x:Name="textBlock13" HorizontalAlignment="Center" TextWrapping="Wrap" Text="رسالة فيها 6666 لـ 9797" VerticalAlignment="Top" Margin="0,37,0,0" FontSize="10" >
+                        <TextBlock.Foreground>
+                            <SolidColorBrush Color="{StaticResource Color2}"/>
+                        </TextBlock.Foreground>
+                    </TextBlock>
+                    <Button x:Name="send13" Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="11,0,0,0" Width="60" Foreground="White" Click="send13_Click">
+                        <Button.Background>
+                            <SolidColorBrush Color="{StaticResource Color3}"/>
+                        </Button.Background>
+                    </Button>
+                    <Rectangle HorizontalAlignment="Stretch" Height="1" Stroke="#FFD11C24" VerticalAlignment="Bottom" Margin="60,0,60,0">
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="{StaticResource Color4}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+
+        
+        <CommandBar VerticalAlignment="Bottom"  Foreground="White">
+            <CommandBar.Background>
+                <SolidColorBrush Color="{StaticResource Color1}"/>
+            </CommandBar.Background>
+
+            <AppBarButton Name="add" Icon="Add"  Label="add"  Foreground="White" Click="add_Click" />
+            <AppBarButton Name="rate" Icon="Emoji2"  Label="rate us"  Foreground="White" Click="rate_Click" />
+            <AppBarButton Name="about" Icon="Help"  Label="about"  Foreground="White" Click="about_Click" />
+        </CommandBar>
+       
+
+
+    </Grid>
+
+
+
+
+
+
+</Page>
